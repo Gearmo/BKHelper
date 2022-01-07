@@ -1,0 +1,148 @@
+html, body {
+width: 100;
+height: 10os;
+margin: Opx;
+padding: Opx;
+overflow-x: hidden;
+}
+
+/* NAVBAR */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    text-indent: -10px;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+}
+.navbar .navbar-collapse {
+    text-align: left;
+}
+
+/* BK BANNER */
+.banner {
+    background-color: #f2f2f2;
+}
+.bannertext {
+    text-align: center;
+    font-style: bold;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+/* VARIANTS */
+.variants {
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: block;
+}
+.variants li{
+    display:inline;
+}
+.variants a{
+    display:inline-block;
+    padding:10px;
+    color: #272727;
+}
+a:hover {
+    text-decoration: none;
+    color: #da7b00;
+}
+a:active {
+    text-decoration: none;
+    background-color: #dbdbdb; 
+}
+/* SIDE NAV */
+
+.sidenav {
+    background-color: #f2f2f2;
+    text-align: center;
+    width: 120%;
+}
+.itemtext {
+    padding-left: 22px;
+    text-align: left;
+    margin-top: 22px;
+    line-height: 2.2;
+}
+
+.item {
+    position: relative;
+}
+
+.item input[type=checkbox] {
+    background-color:#fafafa;
+    filter: alpha(opacity=50);
+    position: absolute;
+    z-index: 50;
+    top: 10px;
+    left: -35px;
+    width: 135px;
+    text-align: right;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.item input[type=checkbox] + .catItemExtraFieldsValue {
+    position: relative;
+    opacity: .5;
+    -moz-opacity: .5;
+    z-index: 45;
+}
+
+.item input[type=checkbox]:after {
+    content: 'I accept';
+    font-size: 14px;
+    vertical-align: top;
+    line-height: 1em;
+    font-weight: bold;
+    font-family: tahoma;
+}
+
+.item input[type=checkbox]:checked {position: static; display: none;}
+.item input[type=checkbox]:checked + .catItemExtraFieldsValue {
+    position: static;
+	background-color: transparent;
+    opacity: 1;
+    -moz-opacity: 1;
+}
+
+/* MAP STUFF */
+.mapobjects {
+    padding: 20px;
+    max-width: 90%;
+    top: auto;
+    background-color: transparent;
+    margin-left:190px;
+    position: absolute;
+    z-index: 1;
+}
+.map {
+    padding: 20px;
+    max-width: 90%;
+    top: auto;
+    background-color: #ccc;
+    margin-left:190px;
+    position: absolute;
+}
+/* FOOTER */
+.footer {
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    background-color: #fff;
+    padding: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright {
+    text-align: center;
+}
