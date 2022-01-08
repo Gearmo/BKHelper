@@ -30,7 +30,6 @@ if ($("checkbox").prop('checked')) {
     $(".mapobjects").css("opacity", "0");
 }
 
-                                                                            HELP
 */
 
 $('checkbox').on('item',function(e) {
