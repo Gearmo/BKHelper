@@ -95,7 +95,9 @@ a:active {
     position: absolute;
     z-index: 1;
     margin-left: 3px;
-    opacity: 1;
+}
+.mapobjectstoggle {
+    opacity: 0;
 }
 .map {
     display: inline-block;
