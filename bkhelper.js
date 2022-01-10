@@ -61,3 +61,4 @@ $('checkbox').on('item',function(e) {
         $('.mapobjects').toggleClass('.mapobjectstoggle');
     };
 });
+ 
