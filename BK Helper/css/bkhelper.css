@@ -1,0 +1,121 @@
+body {
+    min-width:1360px;
+}
+
+/* NAVBAR */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    text-indent: -10px;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+}
+.navbar .navbar-collapse {
+    text-align: left;
+}
+
+/* BK BANNER */
+.banner {
+    background-color: #f2f2f2;
+}
+.bannertext {
+    text-align: center;
+    font-style: bold;
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+/* VARIANTS */
+.variants {
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: block;
+}
+.variants li{
+    display:inline;
+}
+.variants a{
+    display:inline-block;
+    padding:10px;
+    color: #272727;
+}
+a:hover {
+    text-decoration: none;
+    color: #da7b00;
+}
+a:active {
+    text-decoration: none;
+    background-color: #dbdbdb; 
+}
+
+/* SIDE NAV */
+.lower {
+    display:flex;
+    flex-wrap: wrap;
+    height: 862px;
+    padding-top: 15px;
+}
+.g {
+    background: #337fff;
+    border: 3px solid #363636;
+    margin: 0 0 15px 15px;
+  }
+.sidenav {
+    font-size: 12px;
+    background-color: #f2f2f2;
+    text-align: center;
+    width: calc(13% - 15px);
+}
+.itemtext {
+    padding-left: 22px;
+    text-align: left;
+    margin-top: 22px;
+    line-height: 2.2;
+}
+.item {
+    position: relative;
+}
+
+/* MAP STUFF */
+.mapground {
+    display:flex;   
+    justify-content: center;
+    width: calc(87% - 15px);
+    height: auto;
+}
+.mapobjects {
+    background-color: transparent;
+    position: absolute;
+    z-index: 1;
+    margin-left: 3px;
+}
+.mapobjectstoggle {
+    opacity: 0;
+}
+.map {
+    display: inline-block;
+    position: relative;
+    margin-left: 3px;
+}
+/* FOOTER */
+.footer {
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    background-color: #fff;
+    padding: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright {
+    text-align: center;
+}
